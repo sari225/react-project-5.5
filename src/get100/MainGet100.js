@@ -25,6 +25,7 @@ const MainGet100=()=>{
       const startGame=()=>{
         setStatus(1)
         setAble(true)
+        setWins([])
        const newUsers= users.map((user)=>{
         if(user.id===1){
          return   user={...user,disable:false}
